@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/w-carousel.min.css" type="text/css">
+</head>
+<body>
+<div id="carousels">
+    <ul>
+        <li>
+            <img src="images/u=11499581,3828104017&fm=26&gp=0.jpg">
+        </li>
+        <li>
+            <img src="images/u=3103500996,3087937547&fm=26&gp=0.jpg">
+        </li>
+        <li>
+            <img src="images/u=410652591,2904146524&fm=26&gp=0.jpg">
+        </li>
+        <li>
+            <img src="images/u=3267621849,3339338109&fm=28&gp=0.jpg">
+        </li>
+        <li>
+            <img src="images/1.jpg">
+        </li>
+        <li>
+            <img src="images/2.jpg">
+        </li>
+    </ul>
+</div>
+<script src="js/w-carousel.min.js"></script>
+<script>
+    window.onload = function (){
+        var b = new Carousel({targetId:"carousels",automaticPlay:false,carouselWidth:"1000px",carouselHeight:"260px"});
+    }
+</script>
+</body>
+</html>
